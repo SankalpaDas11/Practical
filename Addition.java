@@ -8,9 +8,9 @@ int sub = a-b; // logic of subtraction
 int mul = a*b; // logic of multiplication
 int div = (a/b); // logic of division
 System.out.println(a + " " + b); // 12,6
-System.out.println("The sum is : " + sum);
-System.out.println("The subtraction is : " + sub);
-System.out.println("The multiplication is : " + mul);
-System.out.println("The multiplication is : " + div);
+System.out.println("The sum is : " + sum); // printing the result of addition
+System.out.println("The subtraction is : " + sub); //printing the result of subtraction
+System.out.println("The multiplication is : " + mul); //printing the result of multiplication
+System.out.println("The multiplication is : " + div); //printing the result of division
 }
 }
