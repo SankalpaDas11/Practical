@@ -11,6 +11,6 @@ System.out.println(a + " " + b); // 12,6
 System.out.println("The sum is : " + sum); // printing the result of addition
 System.out.println("The subtraction is : " + sub); // printing the result of subtraction
 System.out.println("The multiplication is : " + mul); // printing the result of multiplication
-System.out.println("The multiplication is : " + div); // printing the result of division
+System.out.println("The division is : " + div); // printing the result of division
 }
 }
