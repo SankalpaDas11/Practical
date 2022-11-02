@@ -6,7 +6,7 @@ public class ThreadState extends Thread {
 		System.out.println("Thread activated");
 	}
 	public static void main(String[] args) {
-		ThreadState obj = new ThreadState(); //creating object of ThreadState 
-		obj.start(); // starting thread 
+		ThreadState obj = new ThreadState(); 	//creating object of ThreadState 
+		obj.start(); 				// starting thread 
 	}
 }
