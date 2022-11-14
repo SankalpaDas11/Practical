@@ -1,12 +1,12 @@
 package ArrayList;
 
-import java.util.ArrayList; // importing ArrayList
+import java.util.ArrayList; 							// importing ArrayList
 
 public class ArrayListEG {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ArrayList<String>al = new ArrayList<String>(); // taking a string type arraylist named al
+		ArrayList<String>al = new ArrayList<String>(); 			// taking a string type arraylist named al
 		
 		// adding elements in the arraylist
 		al.add("Rose");
@@ -21,13 +21,13 @@ public class ArrayListEG {
 		al.add("Lotus");
 		al.add(5,"Lavender");
 
-		System.out.println(al); // printing the arraylist
-		System.out.println("Size of the arraylist : " + al.size()); // printing the length of the arraylist
-		System.out.println(al.get(6)); // fetching the element with index 6
+		System.out.println(al); 					// printing the arraylist
+		System.out.println("Size of the arraylist : " + al.size()); 	// printing the length of the arraylist
+		System.out.println(al.get(6)); 					// fetching the element with index 6
 		
 		al.remove(6); // removing the element with index 6
 		System.out.println(al); // printing the updated arraylist
-		System.out.println("Size of the arraylist : " + al.size()); // printing the updated side of arraylist
+		System.out.println("Size of the arraylist : " + al.size()); 	// printing the updated side of arraylist
 
 	}
 
